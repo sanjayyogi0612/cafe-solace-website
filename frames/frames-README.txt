@@ -1,0 +1,3 @@
+Drop your extracted video frames here as: frame_0001.jpg, frame_0002.jpg, ...
+The scroll-scrub section auto-activates when frame_0001.jpg is present.
+(Send Claude a short video and it will extract the frames into this folder for you.)
