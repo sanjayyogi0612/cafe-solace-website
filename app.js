@@ -15,6 +15,9 @@
     combo: "Solace Combo",
     noodles: "Veg. Hakka Noodles",
     mojitos: "Fruit Mojitos",
+    staff: "The Solace team",
+    "facade-night": "Café Solace at night",
+    logo: "Café Solace",
   };
   document.querySelectorAll("[data-img]").forEach((el) => {
     const key = el.getAttribute("data-img");

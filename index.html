@@ -69,18 +69,7 @@
   </div>
 </section>
 
-<!-- ░░░ SCROLL-SCRUB IMAGE SEQUENCE (hidden until frames exist in /frames) ░░░ -->
-<section class="scrub" id="scrub" hidden>
-  <div class="scrub__sticky">
-    <canvas class="scrub__canvas" id="scrubCanvas"></canvas>
-    <div class="scrub__scrim"></div>
-    <div class="scrub__caption" data-cap="0">
-      <span class="scrub__kicker">THE SIGNATURE</span>
-      <h2>Cold coffee,<br>poured with love.</h2>
-    </div>
-  </div>
-  <div class="scrub__spacer"></div>
-</section>
+<!-- SCROLL-SCRUB SECTION REMOVED per request (kept out; can be restored later) -->
 
 <!-- ░░░ 001 — THE PLACE ░░░ -->
 <section class="chapter" id="place">
@@ -194,9 +183,25 @@
   </div>
 </section>
 
+<!-- ░░░ GALLERY ░░░ -->
+<section class="chapter" id="gallery">
+  <div class="chapter__num">004 / MOMENTS AT SOLACE</div>
+  <div class="menu__head" style="margin-bottom:2.4rem">
+    <h2 class="reveal">Warm food,<br>cozy vibes.</h2>
+  </div>
+  <div class="gallery">
+    <figure class="gtile gtile--wide reveal" data-img="facade-night"></figure>
+    <figure class="gtile gtile--tall reveal" data-img="staff"></figure>
+    <figure class="gtile reveal" data-img="mojitos"></figure>
+    <figure class="gtile reveal" data-img="noodles"></figure>
+    <figure class="gtile reveal" data-img="combo"></figure>
+    <figure class="gtile gtile--wide reveal" data-img="logo"></figure>
+  </div>
+</section>
+
 <!-- ░░░ REVIEWS ░░░ -->
 <section class="chapter chapter--dark" id="reviews">
-  <div class="chapter__num">004 / IN THEIR WORDS</div>
+  <div class="chapter__num">005 / IN THEIR WORDS</div>
   <div class="reviews__score reveal">
     <div class="reviews__big">4.8</div>
     <div class="reviews__stars" aria-label="4.8 out of 5">★★★★★</div>
@@ -225,7 +230,7 @@
 
 <!-- ░░░ VISIT ░░░ -->
 <section class="chapter" id="visit">
-  <div class="chapter__num">005 / VISIT</div>
+  <div class="chapter__num">006 / VISIT</div>
   <div class="visit">
     <div class="visit__info">
       <h2 class="reveal">Come sit<br>a while.</h2>
@@ -277,7 +282,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lenis/1.1.13/lenis.min.js"></script>
 <script src="menu-data.js"></script>
-<script src="scrollscrub.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
