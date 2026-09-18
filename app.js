@@ -12,9 +12,9 @@
     "interior-1": "Interior · seating",
     "interior-2": "Interior · ceiling",
     exterior: "Exterior · facade",
-    "italian-pizza": "Italian Pizza",
-    "cold-coffee": "Cold Coffee w/ Icecream",
-    "chilli-potato": "Honey Chilly Potato",
+    combo: "Solace Combo",
+    noodles: "Veg. Hakka Noodles",
+    mojitos: "Fruit Mojitos",
   };
   document.querySelectorAll("[data-img]").forEach((el) => {
     const key = el.getAttribute("data-img");
