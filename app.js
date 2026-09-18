@@ -18,6 +18,8 @@
     staff: "The Solace team",
     "facade-night": "Café Solace at night",
     logo: "Café Solace",
+    momos: "Fried Momos",
+    entrance: "Welcome in",
   };
   document.querySelectorAll("[data-img]").forEach((el) => {
     const key = el.getAttribute("data-img");
